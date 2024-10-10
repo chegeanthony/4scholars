@@ -1,0 +1,34 @@
+# .gitignore
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment directories
+env/
+venv/
+
+# Configuration files containing sensitive data
+config.py
+
+# Logs
+data/logs/
+*.log
+
+# Environment variables file
+.env
+
+# Data directories
+data/assignments/
+data/users/
+data/*.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Other
+*.swp
